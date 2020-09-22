@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
+  <test name="Default test(failed)">
+    <classes>
+      <class name="com.extramarks_website_testcases.StudentNotesTest">
+        <methods>
+          <include name="initReport"/>
+          <include name="init"/>
+          <include name="logOut"/>
+          <include name="tearDown"/>
+          <include name="studentAddNotes"/>
+          <include name="studentShareNotes"/>
+          <include name="quit"/>
+          <include name="studentDeleteNotes"/>
+          <include name="reportSetup"/>
+          <include name="writeResults"/>
+          <include name="setUp"/>
+          <include name="initClass"/>
+          <include name="studentEditNotes"/>
+          <include name="tearDown2"/>
+        </methods>
+      </class> <!-- com.extramarks_website_testcases.StudentNotesTest -->
+    </classes>
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->

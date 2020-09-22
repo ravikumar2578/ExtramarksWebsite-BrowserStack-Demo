@@ -1,0 +1,1 @@
+{"uuid":"745ff9cc-77d7-4d1c-9411-2279e59f3565","name":"SingleTestFirefox","start":1600252272095,"stop":1600252310366,"children":["9d9eecb4-446c-4058-b86f-710345a7f83d","c1cac618-59ba-44d8-90e7-cf369f1a2911"],"afters":[{"name":"quit","status":"passed","stage":"finished","description":"","start":1600252310348,"stop":1600252310349}]}

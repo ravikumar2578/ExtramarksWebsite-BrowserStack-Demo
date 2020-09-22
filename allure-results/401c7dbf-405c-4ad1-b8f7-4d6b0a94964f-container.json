@@ -1,0 +1,1 @@
+{"uuid":"401c7dbf-405c-4ad1-b8f7-4d6b0a94964f","name":"SingleTestChrome","start":1600252272095,"stop":1600252318889,"children":["0fa332e0-9153-497f-a4bb-3a6badf3cb27","fb676d9b-e578-473e-a96c-8a4072247dd4"],"afters":[{"name":"quit","status":"passed","stage":"finished","description":"","start":1600252318883,"stop":1600252318883}]}

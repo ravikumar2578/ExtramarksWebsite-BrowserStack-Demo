@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Default test"
+           tests="9"
+           failures="4"
+           errors="0"
+           skipped="5"
+           time="0.002">
+    <properties></properties>
+
+            <testcase
+                name="setUp"
+                time="0.000"
+                classname="com.extramarks_website_testcases.StudentLoginTest">
+
+            <failure type="org.testng.TestNGException" message="
+Parameter &apos;config&apos; is required by BeforeMethod on method setUp but has not been marked @Optional or defined
+in C:\Users\Dell\AppData\Local\Temp\testng-eclipse--598705802\testng-customsuite.xml">
+                <![CDATA[org.testng.TestNGException: 
+Parameter 'config' is required by BeforeMethod on method setUp but has not been marked @Optional or defined
+in C:\Users\Dell\AppData\Local\Temp\testng-eclipse--598705802\testng-customsuite.xml
+                org.testng.internal.Parameters.createParameters(Parameters.java:199)org.testng.internal.Parameters.createParameters(Parameters.java:443)org.testng.internal.Parameters.createConfigurationParameters(Parameters.java:118)org.testng.internal.Invoker.invokeConfigurations(Invoker.java:206)org.testng.internal.Invoker.invokeMethod(Invoker.java:599)org.testng.internal.Invoker.invokeTestMethod(Invoker.java:869)org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1193)org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:126)org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)org.testng.TestRunner.privateRun(TestRunner.java:744)org.testng.TestRunner.run(TestRunner.java:602)org.testng.SuiteRunner.runTest(SuiteRunner.java:380)org.testng.SuiteRunner.runSequentially(SuiteRunner.java:375)org.testng.SuiteRunner.privateRun(SuiteRunner.java:340)org.testng.SuiteRunner.run(SuiteRunner.java:289)org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)org.testng.TestNG.runSuitesSequentially(TestNG.java:1301)org.testng.TestNG.runSuitesLocally(TestNG.java:1226)org.testng.TestNG.runSuites(TestNG.java:1144)org.testng.TestNG.run(TestNG.java:1115)org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </failure>
+    </testcase>
+            <testcase
+                name="setUp"
+                time="0.000"
+                classname="com.extramarks_website_testcases.StudentLoginTest">
+
+            <failure type="org.testng.TestNGException" message="
+Parameter &apos;config&apos; is required by BeforeMethod on method setUp but has not been marked @Optional or defined
+in C:\Users\Dell\AppData\Local\Temp\testng-eclipse--598705802\testng-customsuite.xml">
+                <![CDATA[org.testng.TestNGException: 
+Parameter 'config' is required by BeforeMethod on method setUp but has not been marked @Optional or defined
+in C:\Users\Dell\AppData\Local\Temp\testng-eclipse--598705802\testng-customsuite.xml
+                org.testng.internal.Parameters.createParameters(Parameters.java:199)org.testng.internal.Parameters.createParameters(Parameters.java:443)org.testng.internal.Parameters.createConfigurationParameters(Parameters.java:118)org.testng.internal.Invoker.invokeConfigurations(Invoker.java:206)org.testng.internal.Invoker.invokeMethod(Invoker.java:599)org.testng.internal.Invoker.invokeTestMethod(Invoker.java:869)org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1193)org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:126)org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)org.testng.TestRunner.privateRun(TestRunner.java:744)org.testng.TestRunner.run(TestRunner.java:602)org.testng.SuiteRunner.runTest(SuiteRunner.java:380)org.testng.SuiteRunner.runSequentially(SuiteRunner.java:375)org.testng.SuiteRunner.privateRun(SuiteRunner.java:340)org.testng.SuiteRunner.run(SuiteRunner.java:289)org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)org.testng.TestNG.runSuitesSequentially(TestNG.java:1301)org.testng.TestNG.runSuitesLocally(TestNG.java:1226)org.testng.TestNG.runSuites(TestNG.java:1144)org.testng.TestNG.run(TestNG.java:1115)org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </failure>
+    </testcase>
+            <testcase
+                name="setUp"
+                time="0.000"
+                classname="com.extramarks_website_testcases.StudentLoginTest">
+
+            <failure type="org.testng.TestNGException" message="
+Parameter &apos;config&apos; is required by BeforeMethod on method setUp but has not been marked @Optional or defined
+in C:\Users\Dell\AppData\Local\Temp\testng-eclipse--598705802\testng-customsuite.xml">
+                <![CDATA[org.testng.TestNGException: 
+Parameter 'config' is required by BeforeMethod on method setUp but has not been marked @Optional or defined
+in C:\Users\Dell\AppData\Local\Temp\testng-eclipse--598705802\testng-customsuite.xml
+                org.testng.internal.Parameters.createParameters(Parameters.java:199)org.testng.internal.Parameters.createParameters(Parameters.java:443)org.testng.internal.Parameters.createConfigurationParameters(Parameters.java:118)org.testng.internal.Invoker.invokeConfigurations(Invoker.java:206)org.testng.internal.Invoker.invokeMethod(Invoker.java:599)org.testng.internal.Invoker.invokeTestMethod(Invoker.java:869)org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1193)org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:126)org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)org.testng.TestRunner.privateRun(TestRunner.java:744)org.testng.TestRunner.run(TestRunner.java:602)org.testng.SuiteRunner.runTest(SuiteRunner.java:380)org.testng.SuiteRunner.runSequentially(SuiteRunner.java:375)org.testng.SuiteRunner.privateRun(SuiteRunner.java:340)org.testng.SuiteRunner.run(SuiteRunner.java:289)org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)org.testng.TestNG.runSuitesSequentially(TestNG.java:1301)org.testng.TestNG.runSuitesLocally(TestNG.java:1226)org.testng.TestNG.runSuites(TestNG.java:1144)org.testng.TestNG.run(TestNG.java:1115)org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </failure>
+    </testcase>
+            <testcase
+                name="setUp"
+                time="0.000"
+                classname="com.extramarks_website_testcases.StudentLoginTest">
+
+            <failure type="org.testng.TestNGException" message="
+Parameter &apos;config&apos; is required by BeforeMethod on method setUp but has not been marked @Optional or defined
+in C:\Users\Dell\AppData\Local\Temp\testng-eclipse--598705802\testng-customsuite.xml">
+                <![CDATA[org.testng.TestNGException: 
+Parameter 'config' is required by BeforeMethod on method setUp but has not been marked @Optional or defined
+in C:\Users\Dell\AppData\Local\Temp\testng-eclipse--598705802\testng-customsuite.xml
+                org.testng.internal.Parameters.createParameters(Parameters.java:199)org.testng.internal.Parameters.createParameters(Parameters.java:443)org.testng.internal.Parameters.createConfigurationParameters(Parameters.java:118)org.testng.internal.Invoker.invokeConfigurations(Invoker.java:206)org.testng.internal.Invoker.invokeMethod(Invoker.java:599)org.testng.internal.Invoker.invokeTestMethod(Invoker.java:869)org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1193)org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:126)org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)org.testng.TestRunner.privateRun(TestRunner.java:744)org.testng.TestRunner.run(TestRunner.java:602)org.testng.SuiteRunner.runTest(SuiteRunner.java:380)org.testng.SuiteRunner.runSequentially(SuiteRunner.java:375)org.testng.SuiteRunner.privateRun(SuiteRunner.java:340)org.testng.SuiteRunner.run(SuiteRunner.java:289)org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)org.testng.TestNG.runSuitesSequentially(TestNG.java:1301)org.testng.TestNG.runSuitesLocally(TestNG.java:1226)org.testng.TestNG.runSuites(TestNG.java:1144)org.testng.TestNG.run(TestNG.java:1115)org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </failure>
+    </testcase>
+
+            <testcase
+                name="tearDown"
+                time="0.0"
+                classname="com.extramarks_website_testcases.StudentLoginTest">
+            </testcase>
+            <testcase
+                name="verifyDashboardPageTitle"
+                time="0.0"
+                classname="com.extramarks_website_testcases.StudentLoginTest">
+            </testcase>
+            <testcase
+                name="verifyStudentLogin"
+                time="0.0"
+                classname="com.extramarks_website_testcases.StudentLoginTest">
+            </testcase>
+            <testcase
+                name="verifyLoginPage"
+                time="0.0"
+                classname="com.extramarks_website_testcases.StudentLoginTest">
+            </testcase>
+            <testcase
+                name="verifyHomePageTitle"
+                time="0.0"
+                classname="com.extramarks_website_testcases.StudentLoginTest">
+            </testcase>
+
+</testsuite>

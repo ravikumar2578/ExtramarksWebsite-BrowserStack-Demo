@@ -1,0 +1,432 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="4" failed="0" ignored="2" total="6" passed="0">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="6339" started-at="2020-09-22T11:44:24Z" finished-at="2020-09-22T11:44:31Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="6339" started-at="2020-09-22T11:44:24Z" finished-at="2020-09-22T11:44:31Z">
+      <class name="com.extramarks_website_testcases.StudentNotesTest">
+        <test-method status="PASS" signature="reportSetup()[pri:0, instance:com.extramarks_website_testcases.StudentNotesTest@62573c86]" name="reportSetup" is-config="true" duration-ms="1081" started-at="2020-09-22T17:14:23Z" finished-at="2020-09-22T17:14:24Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- reportSetup -->
+        <test-method status="PASS" signature="initClass()[pri:0, instance:com.extramarks_website_testcases.StudentNotesTest@62573c86]" name="initClass" is-config="true" duration-ms="1" started-at="2020-09-22T17:14:25Z" finished-at="2020-09-22T17:14:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initClass -->
+        <test-method status="PASS" signature="initReport(org.testng.ITestContext)[pri:0, instance:com.extramarks_website_testcases.StudentNotesTest@62573c86]" name="initReport" is-config="true" duration-ms="10" started-at="2020-09-22T17:14:25Z" finished-at="2020-09-22T17:14:25Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@12a470dd]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initReport -->
+        <test-method status="PASS" signature="reportSetup()[pri:0, instance:com.extramarks_website_testcases.StudentNotesTest@62573c86]" name="reportSetup" is-config="true" duration-ms="1" started-at="2020-09-22T17:14:25Z" finished-at="2020-09-22T17:14:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- reportSetup -->
+        <test-method status="FAIL" signature="setUp(java.lang.String, java.lang.String)[pri:0, instance:com.extramarks_website_testcases.StudentNotesTest@62573c86]" name="setUp" is-config="true" duration-ms="0" started-at="2020-09-22T17:14:26Z" finished-at="2020-09-22T17:14:26Z">
+          <exception class="org.testng.TestNGException">
+            <message>
+              <![CDATA[
+Parameter 'config' is required by BeforeMethod on method setUp but has not been marked @Optional or defined
+in C:\Users\Dell\AppData\Local\Temp\testng-eclipse--1700487329\testng-customsuite.xml]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.testng.TestNGException: 
+Parameter 'config' is required by BeforeMethod on method setUp but has not been marked @Optional or defined
+in C:\Users\Dell\AppData\Local\Temp\testng-eclipse--1700487329\testng-customsuite.xml
+	at org.testng.internal.Parameters.createParameters(Parameters.java:199)
+	at org.testng.internal.Parameters.createParameters(Parameters.java:443)
+	at org.testng.internal.Parameters.createConfigurationParameters(Parameters.java:118)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:206)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:599)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:869)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1193)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:126)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at org.testng.TestRunner.privateRun(TestRunner.java:744)
+	at org.testng.TestRunner.run(TestRunner.java:602)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:380)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:375)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:340)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:289)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1301)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1226)
+	at org.testng.TestNG.runSuites(TestNG.java:1144)
+	at org.testng.TestNG.run(TestNG.java:1115)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.testng.TestNGException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="init(java.lang.reflect.Method)[pri:0, instance:com.extramarks_website_testcases.StudentNotesTest@62573c86]" name="init" is-config="true" duration-ms="1" started-at="2020-09-22T17:14:26Z" finished-at="2020-09-22T17:14:26Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.extramarks_website_testcases.StudentNotesTest.studentAddNotes(java.util.Hashtable,java.lang.reflect.Method)]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- init -->
+        <test-method status="SKIP" signature="studentAddNotes(java.util.Hashtable, java.lang.reflect.Method)[pri:1, instance:com.extramarks_website_testcases.StudentNotesTest@62573c86]" name="studentAddNotes" duration-ms="1" started-at="2020-09-22T17:14:26Z" description="Verifying Student is allowed to send notes" data-provider="getData" finished-at="2020-09-22T17:14:26Z">
+          <exception class="org.testng.TestNGException">
+            <message>
+              <![CDATA[
+Parameter 'config' is required by BeforeMethod on method setUp but has not been marked @Optional or defined
+in C:\Users\Dell\AppData\Local\Temp\testng-eclipse--1700487329\testng-customsuite.xml]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.testng.TestNGException: 
+Parameter 'config' is required by BeforeMethod on method setUp but has not been marked @Optional or defined
+in C:\Users\Dell\AppData\Local\Temp\testng-eclipse--1700487329\testng-customsuite.xml
+	at org.testng.internal.Parameters.createParameters(Parameters.java:199)
+	at org.testng.internal.Parameters.createParameters(Parameters.java:443)
+	at org.testng.internal.Parameters.createConfigurationParameters(Parameters.java:118)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:206)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:599)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:869)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1193)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:126)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at org.testng.TestRunner.privateRun(TestRunner.java:744)
+	at org.testng.TestRunner.run(TestRunner.java:602)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:380)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:375)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:340)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:289)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1301)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1226)
+	at org.testng.TestNG.runSuites(TestNG.java:1144)
+	at org.testng.TestNG.run(TestNG.java:1115)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.testng.TestNGException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- studentAddNotes -->
+        <test-method status="PASS" signature="reportSetup()[pri:0, instance:com.extramarks_website_testcases.StudentNotesTest@62573c86]" name="reportSetup" is-config="true" duration-ms="0" started-at="2020-09-22T17:14:26Z" finished-at="2020-09-22T17:14:26Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- reportSetup -->
+        <test-method status="FAIL" signature="setUp(java.lang.String, java.lang.String)[pri:0, instance:com.extramarks_website_testcases.StudentNotesTest@62573c86]" name="setUp" is-config="true" duration-ms="0" started-at="2020-09-22T17:14:26Z" finished-at="2020-09-22T17:14:26Z">
+          <exception class="org.testng.TestNGException">
+            <message>
+              <![CDATA[
+Parameter 'config' is required by BeforeMethod on method setUp but has not been marked @Optional or defined
+in C:\Users\Dell\AppData\Local\Temp\testng-eclipse--1700487329\testng-customsuite.xml]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.testng.TestNGException: 
+Parameter 'config' is required by BeforeMethod on method setUp but has not been marked @Optional or defined
+in C:\Users\Dell\AppData\Local\Temp\testng-eclipse--1700487329\testng-customsuite.xml
+	at org.testng.internal.Parameters.createParameters(Parameters.java:199)
+	at org.testng.internal.Parameters.createParameters(Parameters.java:443)
+	at org.testng.internal.Parameters.createConfigurationParameters(Parameters.java:118)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:206)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:599)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:869)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1193)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:126)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at org.testng.TestRunner.privateRun(TestRunner.java:744)
+	at org.testng.TestRunner.run(TestRunner.java:602)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:380)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:375)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:340)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:289)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1301)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1226)
+	at org.testng.TestNG.runSuites(TestNG.java:1144)
+	at org.testng.TestNG.run(TestNG.java:1115)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.testng.TestNGException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="init(java.lang.reflect.Method)[pri:0, instance:com.extramarks_website_testcases.StudentNotesTest@62573c86]" name="init" is-config="true" duration-ms="1" started-at="2020-09-22T17:14:26Z" finished-at="2020-09-22T17:14:26Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.extramarks_website_testcases.StudentNotesTest.studentEditNotes(java.util.Hashtable,java.lang.reflect.Method)]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- init -->
+        <test-method status="SKIP" signature="studentEditNotes(java.util.Hashtable, java.lang.reflect.Method)[pri:2, instance:com.extramarks_website_testcases.StudentNotesTest@62573c86]" name="studentEditNotes" duration-ms="0" started-at="2020-09-22T17:14:26Z" description="Verifying user is allowed to update notes" data-provider="getData" finished-at="2020-09-22T17:14:26Z">
+          <exception class="org.testng.TestNGException">
+            <message>
+              <![CDATA[
+Parameter 'config' is required by BeforeMethod on method setUp but has not been marked @Optional or defined
+in C:\Users\Dell\AppData\Local\Temp\testng-eclipse--1700487329\testng-customsuite.xml]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.testng.TestNGException: 
+Parameter 'config' is required by BeforeMethod on method setUp but has not been marked @Optional or defined
+in C:\Users\Dell\AppData\Local\Temp\testng-eclipse--1700487329\testng-customsuite.xml
+	at org.testng.internal.Parameters.createParameters(Parameters.java:199)
+	at org.testng.internal.Parameters.createParameters(Parameters.java:443)
+	at org.testng.internal.Parameters.createConfigurationParameters(Parameters.java:118)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:206)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:599)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:869)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1193)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:126)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at org.testng.TestRunner.privateRun(TestRunner.java:744)
+	at org.testng.TestRunner.run(TestRunner.java:602)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:380)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:375)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:340)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:289)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1301)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1226)
+	at org.testng.TestNG.runSuites(TestNG.java:1144)
+	at org.testng.TestNG.run(TestNG.java:1115)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.testng.TestNGException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- studentEditNotes -->
+        <test-method status="PASS" signature="reportSetup()[pri:0, instance:com.extramarks_website_testcases.StudentNotesTest@62573c86]" name="reportSetup" is-config="true" duration-ms="2" started-at="2020-09-22T17:14:26Z" finished-at="2020-09-22T17:14:26Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- reportSetup -->
+        <test-method status="FAIL" signature="setUp(java.lang.String, java.lang.String)[pri:0, instance:com.extramarks_website_testcases.StudentNotesTest@62573c86]" name="setUp" is-config="true" duration-ms="0" started-at="2020-09-22T17:14:26Z" finished-at="2020-09-22T17:14:26Z">
+          <exception class="org.testng.TestNGException">
+            <message>
+              <![CDATA[
+Parameter 'config' is required by BeforeMethod on method setUp but has not been marked @Optional or defined
+in C:\Users\Dell\AppData\Local\Temp\testng-eclipse--1700487329\testng-customsuite.xml]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.testng.TestNGException: 
+Parameter 'config' is required by BeforeMethod on method setUp but has not been marked @Optional or defined
+in C:\Users\Dell\AppData\Local\Temp\testng-eclipse--1700487329\testng-customsuite.xml
+	at org.testng.internal.Parameters.createParameters(Parameters.java:199)
+	at org.testng.internal.Parameters.createParameters(Parameters.java:443)
+	at org.testng.internal.Parameters.createConfigurationParameters(Parameters.java:118)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:206)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:599)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:869)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1193)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:126)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at org.testng.TestRunner.privateRun(TestRunner.java:744)
+	at org.testng.TestRunner.run(TestRunner.java:602)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:380)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:375)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:340)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:289)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1301)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1226)
+	at org.testng.TestNG.runSuites(TestNG.java:1144)
+	at org.testng.TestNG.run(TestNG.java:1115)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.testng.TestNGException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="init(java.lang.reflect.Method)[pri:0, instance:com.extramarks_website_testcases.StudentNotesTest@62573c86]" name="init" is-config="true" duration-ms="1" started-at="2020-09-22T17:14:26Z" finished-at="2020-09-22T17:14:26Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.extramarks_website_testcases.StudentNotesTest.studentDeleteNotes(java.util.Hashtable,java.lang.reflect.Method)]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- init -->
+        <test-method status="SKIP" signature="studentDeleteNotes(java.util.Hashtable, java.lang.reflect.Method)[pri:3, instance:com.extramarks_website_testcases.StudentNotesTest@62573c86]" name="studentDeleteNotes" duration-ms="0" started-at="2020-09-22T17:14:26Z" description="Verifying student is allowed to delete notes" data-provider="getData" finished-at="2020-09-22T17:14:26Z">
+          <exception class="org.testng.TestNGException">
+            <message>
+              <![CDATA[
+Parameter 'config' is required by BeforeMethod on method setUp but has not been marked @Optional or defined
+in C:\Users\Dell\AppData\Local\Temp\testng-eclipse--1700487329\testng-customsuite.xml]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.testng.TestNGException: 
+Parameter 'config' is required by BeforeMethod on method setUp but has not been marked @Optional or defined
+in C:\Users\Dell\AppData\Local\Temp\testng-eclipse--1700487329\testng-customsuite.xml
+	at org.testng.internal.Parameters.createParameters(Parameters.java:199)
+	at org.testng.internal.Parameters.createParameters(Parameters.java:443)
+	at org.testng.internal.Parameters.createConfigurationParameters(Parameters.java:118)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:206)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:599)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:869)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1193)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:126)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at org.testng.TestRunner.privateRun(TestRunner.java:744)
+	at org.testng.TestRunner.run(TestRunner.java:602)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:380)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:375)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:340)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:289)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1301)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1226)
+	at org.testng.TestNG.runSuites(TestNG.java:1144)
+	at org.testng.TestNG.run(TestNG.java:1115)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.testng.TestNGException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- studentDeleteNotes -->
+        <test-method status="PASS" signature="reportSetup()[pri:0, instance:com.extramarks_website_testcases.StudentNotesTest@62573c86]" name="reportSetup" is-config="true" duration-ms="1" started-at="2020-09-22T17:14:27Z" finished-at="2020-09-22T17:14:27Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- reportSetup -->
+        <test-method status="FAIL" signature="setUp(java.lang.String, java.lang.String)[pri:0, instance:com.extramarks_website_testcases.StudentNotesTest@62573c86]" name="setUp" is-config="true" duration-ms="0" started-at="2020-09-22T17:14:27Z" finished-at="2020-09-22T17:14:27Z">
+          <exception class="org.testng.TestNGException">
+            <message>
+              <![CDATA[
+Parameter 'config' is required by BeforeMethod on method setUp but has not been marked @Optional or defined
+in C:\Users\Dell\AppData\Local\Temp\testng-eclipse--1700487329\testng-customsuite.xml]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.testng.TestNGException: 
+Parameter 'config' is required by BeforeMethod on method setUp but has not been marked @Optional or defined
+in C:\Users\Dell\AppData\Local\Temp\testng-eclipse--1700487329\testng-customsuite.xml
+	at org.testng.internal.Parameters.createParameters(Parameters.java:199)
+	at org.testng.internal.Parameters.createParameters(Parameters.java:443)
+	at org.testng.internal.Parameters.createConfigurationParameters(Parameters.java:118)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:206)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:599)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:869)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1193)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:126)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at org.testng.TestRunner.privateRun(TestRunner.java:744)
+	at org.testng.TestRunner.run(TestRunner.java:602)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:380)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:375)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:340)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:289)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1301)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1226)
+	at org.testng.TestNG.runSuites(TestNG.java:1144)
+	at org.testng.TestNG.run(TestNG.java:1115)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.testng.TestNGException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="init(java.lang.reflect.Method)[pri:0, instance:com.extramarks_website_testcases.StudentNotesTest@62573c86]" name="init" is-config="true" duration-ms="1" started-at="2020-09-22T17:14:27Z" finished-at="2020-09-22T17:14:27Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.extramarks_website_testcases.StudentNotesTest.studentShareNotes(java.util.Hashtable,java.lang.reflect.Method)]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- init -->
+        <test-method status="SKIP" signature="studentShareNotes(java.util.Hashtable, java.lang.reflect.Method)[pri:4, instance:com.extramarks_website_testcases.StudentNotesTest@62573c86]" name="studentShareNotes" duration-ms="0" started-at="2020-09-22T17:14:27Z" description="Verifying Student is allowed to share notes" data-provider="getData" finished-at="2020-09-22T17:14:27Z">
+          <exception class="org.testng.TestNGException">
+            <message>
+              <![CDATA[
+Parameter 'config' is required by BeforeMethod on method setUp but has not been marked @Optional or defined
+in C:\Users\Dell\AppData\Local\Temp\testng-eclipse--1700487329\testng-customsuite.xml]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.testng.TestNGException: 
+Parameter 'config' is required by BeforeMethod on method setUp but has not been marked @Optional or defined
+in C:\Users\Dell\AppData\Local\Temp\testng-eclipse--1700487329\testng-customsuite.xml
+	at org.testng.internal.Parameters.createParameters(Parameters.java:199)
+	at org.testng.internal.Parameters.createParameters(Parameters.java:443)
+	at org.testng.internal.Parameters.createConfigurationParameters(Parameters.java:118)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:206)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:599)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:869)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1193)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:126)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+	at org.testng.TestRunner.privateRun(TestRunner.java:744)
+	at org.testng.TestRunner.run(TestRunner.java:602)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:380)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:375)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:340)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:289)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1301)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1226)
+	at org.testng.TestNG.runSuites(TestNG.java:1144)
+	at org.testng.TestNG.run(TestNG.java:1115)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.testng.TestNGException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- studentShareNotes -->
+        <test-method status="PASS" signature="logOut()[pri:0, instance:com.extramarks_website_testcases.StudentNotesTest@62573c86]" name="logOut" is-config="true" duration-ms="4190" started-at="2020-09-22T17:14:27Z" finished-at="2020-09-22T17:14:31Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logOut -->
+        <test-method status="PASS" signature="quit()[pri:0, instance:com.extramarks_website_testcases.StudentNotesTest@62573c86]" name="quit" is-config="true" duration-ms="1" started-at="2020-09-22T17:14:31Z" finished-at="2020-09-22T17:14:31Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quit -->
+        <test-method status="SKIP" signature="tearDown()[pri:0, instance:com.extramarks_website_testcases.StudentNotesTest@62573c86]" name="tearDown" is-config="true" duration-ms="0" started-at="2020-09-22T17:14:31Z" finished-at="2020-09-22T17:14:31Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.extramarks_website_testcases.StudentNotesTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

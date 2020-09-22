@@ -1,0 +1,1 @@
+{"uuid":"25c2e8b2-5c93-42ba-9ea4-76ca830577f0","name":"SingleTestSafari","start":1600253335401,"stop":1600253369012,"children":["4fd23b13-4204-4b46-8832-5c57404539be","fdb72e18-e88e-448c-ad07-9c31b14208da"],"afters":[{"name":"quit","status":"passed","stage":"finished","description":"","start":1600253368957,"stop":1600253368959}]}

@@ -1,0 +1,1 @@
+{"uuid":"5caa19d1-fdb2-4761-a16f-316e04c9c055","name":"com.extramarks_website_testcases.BrowserStackTestNGTest.tearDown","description":"","start":1600278544205,"stop":1600278545285,"children":["ddb31ef7-ecec-40c8-935b-4fb82e0e9b4d"],"afters":[{"name":"tearDown","status":"passed","stage":"finished","description":"","start":1600278544205,"stop":1600278545285}]}

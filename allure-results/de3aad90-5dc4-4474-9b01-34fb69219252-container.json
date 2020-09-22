@@ -1,0 +1,1 @@
+{"uuid":"de3aad90-5dc4-4474-9b01-34fb69219252","name":"com.extramarks_website_testcases.StudentLoginTest.writeResults","description":"","start":1600775621531,"stop":1600775621599,"children":["c4dff6aa-395d-49e2-bc87-25f3c2f60ee7"],"afters":[{"name":"writeResults","status":"passed","stage":"finished","description":"","start":1600775621531,"stop":1600775621599}]}

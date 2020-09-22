@@ -1,0 +1,31 @@
+{
+  "server": "hub-cloud.browserstack.com",
+  "user": "vikrantsingh9",
+  "key": "D1phjhtszpFxzMPCDMmC",
+
+  "capabilities": {
+    "project": "TestNG Demo",
+    "build": "testng-browserstack",
+    "name": "parallel_test",
+    "browserstack.debug": true
+  },
+
+  "environments": {
+    "chrome": {
+      "device": "Samsung Galaxy S20",
+      "os_version": "10.0",
+      "real_mobile": "true"
+    },
+    "firefox": {
+      "os" : "Windows",
+      "browser": "firefox"
+    },
+    "safari": {
+      "device": "iPhone 11",
+      "os_version": "14"
+    },
+    "ie": {
+      "browser": "internet explorer"
+    }
+  }
+}

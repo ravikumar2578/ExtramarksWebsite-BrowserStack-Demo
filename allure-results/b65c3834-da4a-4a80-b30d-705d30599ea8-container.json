@@ -1,0 +1,1 @@
+{"uuid":"b65c3834-da4a-4a80-b30d-705d30599ea8","name":"com.extramarks_website_testcases.BaseTest.reportSetup","description":"","start":1600281685480,"stop":1600281685481,"children":["d58c73b7-de97-44b4-9f95-eac18cbadf5f"],"befores":[{"name":"reportSetup","status":"passed","stage":"finished","description":"","start":1600281685480,"stop":1600281685481}]}
